@@ -67,11 +67,9 @@ article > figure {
     text-align: center;
 }
 
-#headergif {
-  position: absolute;
+#panorama {
   width: 100%;
-  z-index: -1;
-  opacity: .2;
+  height:575px;
 }
 
 footer{
@@ -135,6 +133,7 @@ footer{
 @media screen and (max-width: 820px){
   h1 {font-size: 7em;}
   #byline {margin-top: 0%;}
+  #panorama {height: 300px;}
 }
 
 @media screen and (max-width: 650px){
